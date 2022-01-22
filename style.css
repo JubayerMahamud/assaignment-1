@@ -1,0 +1,313 @@
+/*-----Font family----- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,200;1,400&family=Signika+Negative:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,500;1,200;1,400&family=Signika+Negative:wght@300;400;600&display=swap');
+/* ----------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+ul li{
+    list-style: none;
+}
+/* ------------ */
+.container{
+    width: 80%;
+    margin: auto;
+}
+/*---------------------
+Focuse Section css-----
+----------------------*/
+.focuse-section{
+  background-color: #F0FAFB;
+}
+.focuse-content{
+    display: flex;
+    align-items: center;
+   
+} 
+.focuse-item{
+    flex-basis: 50%;
+    margin-bottom: 5%;
+}
+.focuse-item h1{
+    font-size: 50px;
+    font-family: 'Signika Negative', sans-serif;
+    color: #acaec0;
+}
+.fo-title{
+   display: flex;
+}
+.fo-color{
+    border-left: 6px solid;
+    border-color: #016427;
+    border-image-slice: 1; 
+    margin: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.color-title{
+    color: #ff0066;
+}
+.focuse-item p {
+    padding: 25px 0;
+    color: #555;
+}
+.hero-btn{
+    background: #58caf3 ;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    transition: .5s;
+}
+.hero-btn:hover{
+    background-color:  #910630;
+    margin-left: 4px;
+}
+.focuse-item img{
+    width: 70%;
+    padding-left: 100px;
+}
+/*---------------------
+---Mission Sewction----
+----------------------- */
+.mission-section{
+    padding-top: 50px;
+    background-image: url(images/pictures/bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 70px;
+    color:#0B1251;
+}
+.mission-content{
+    display: flex;
+    justify-content: space-around;
+}
+.mission-item{
+    flex-basis: 25%;
+    margin-bottom: 5%;
+    border-radius: 5%;
+    padding: 20px 20px;
+    transition: 1s;
+    box-shadow: 5px 7px 20px #4657635e;
+}
+.mission-item:hover{
+     margin-left: 5px;
+     margin-top:  5px;
+    cursor: pointer;
+}
+#m-bg-1{
+    background-color: rgba(166, 228, 21, 0.37);
+}
+#m-bg-2{
+    background-color: rgba(16, 168, 206, 0.37);
+}
+#m-bg-3{
+    background-color: rgba(233, 113, 193, 0.37);
+}
+.mission-item img{
+    width: 150px;
+    height: 150px;
+}
+.mission-item h4{
+   font-size: 22px;
+   color:#2838445e;
+}
+.mission-item h4:hover{
+    color: rgb(255, 0, 0);
+}
+.mission-item p{
+    padding: 15px 0;
+    
+}
+/*-----------------------
+------grow section-------
+-------------------------*/
+.grow-section{
+    padding-top: 100px;
+    background-color: #f0f0f041;
+}
+.grow-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.grow-item{
+   flex-basis: 45%;
+   margin-bottom: 10%;
+}
+.grow-item img{
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+.grow-item h2{
+    font-size: 40px;
+    color:#656cb3;
+    font-weight: 700;
+}
+.grow-item p{
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+/*--------------------
+Comunity Section------
+---------------------*/
+.community-section{
+    padding-top: 100px;
+    background-image: url(images/pictures/shape-4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.community-content{
+    display: flex;
+}
+.community-item img{
+    width: 80%;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+.community-item{
+    flex-basis: 45%;
+    margin-bottom: 10%;
+}
+.community-item h2{
+    font-size: 40px;
+    color:#c02ec5;
+}
+.community-item p{
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+/* -----------------
+Contact section-----
+------------------- */
+.contact-section{
+    padding-top: 100px;
+    background:linear-gradient(0deg, rgba(209, 31, 0, 0.9), rgba(11, 37, 156, 0.9)), url(images/pictures/cont-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cont-title{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #7daacf;
+}
+.cont-title h2{
+    font-size: 40px;
+}
+.cont-title p{
+    font-size: 14px;
+}
+.contact-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont-item{
+    flex-basis: 50%;
+    margin-bottom: 5%;
+}
+.cont-icon div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+.cont-icon div .fav{
+    font-size: 34px;
+    color: #f0f0f0;
+    margin: 10px;
+    margin-right: 20px;
+}
+.cont-icon div .fav:hover{
+    color: rgb(247, 0, 0);
+}
+.cont-icon div:hover{
+    padding-left: 4px;
+}
+.cont-icon div h5 {
+    font-size: 22px;
+    color: #777;
+    font-style: italic;
+}
+.cont-icon div p{
+    font-size: 14px;
+    color: rgb(202, 0, 0);
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.cont-item input, textarea{
+  width: 80%;
+  margin-bottom: 18px;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid  rgba(70, 87, 99, 0.37);
+  border-radius: 5px;
+  resize: none;
+  background: rgba(70, 87, 99, 0.37);
+  color: #fff;
+}
+.f-btn{
+   border: none;
+   cursor: pointer;
+}
+/*----------------
+ ------fonter----- 
+ -----------------*/
+.copyright{
+    text-align: center;
+    padding: 20px;
+    background: rgb(39, 35, 35);
+    color: rgb(91, 196, 245);
+}
+.footer h4{
+    font-size: 34px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.f-color{
+    color: orange;
+}
+.copyright p{
+    font-size: 14px;
+    padding: 10px;
+}
+/* -------------------
+---------------------
+----------------------*/
+@media (max-width: 780px) {
+    .focuse-content{
+        flex-direction: column;
+    }
+    .mission-content{
+        flex-direction: column;
+    }
+    .contact-content{
+        flex-direction: column;
+    }
+    .community-content{
+        flex-direction: column;
+    }
+    .grow-content{
+         flex-direction: column;
+    }
+ }
+ /* ---------========------------ */
